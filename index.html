@@ -29,64 +29,27 @@
       </header>
       <main>
         <div class="weather-app-data">
-            <div>
-          <h1 class="weather-app-city" id="city">Paris</h1>
-          <p class="weather-app-details">
-            <span id="time"></span>, <span id="description"></span>
-            <br />
-            Humidity: <strong id="humidity"></strong>, Wind: <strong id="wind-speed"></strong>
-          </p>
+          <div>
+            <h1 class="weather-app-city" id="city">Paris</h1>
+            <p class="weather-app-details">
+              <span id="time"></span>, <span id="description"></span>
+              <br />
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="wind-speed"></strong>
+            </p>
+          </div>
+          <div class="weather-app-temperature-container">
+            <div id="icon">
+              <img
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+                class="weather-app-icon"
+              />
+            </div>
+            <div class="weather-app-temperature" id="temperature">12</div>
+            <div class="weather-app-unit">°C</div>
+          </div>
         </div>
-        <div class="weather-app-temperature-container">
-          <div id="icon">
-            <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
-            class="weather-app-icon">
-          </div>
-          <div class="weather-app-temperature" id="temperature">12</div>
-          <div class="weather-app-unit">°C</div>
-        </div>
-        </div>
-        <div class="weather-forecast">
-          <div class="weather-forecast-day">
-            <div class="weather-forecast-date">Tue</div>
-              <div class="weather-forecast-icon">🌤️</div>
-                <div class="weather-forecast-temperatures">
-                  <div class="temperature"><strong>15°</strong></div>
-                  <div class="temperature">9°</div>
-                </div>
-          </div>
-          <div class="weather-forecast-day">
-            <div class="weather-forecast-date">Tue</div>
-              <div class="weather-forecast-icon">🌤️</div>
-                <div class="weather-forecast-temperatures">
-                  <div class="temperature"><strong>15°</strong></div>
-                  <div class="temperature">9°</div>
-                </div>
-          </div>
-                <div class="weather-forecast-day">
-            <div class="weather-forecast-date">Tue</div>
-              <div class="weather-forecast-icon">🌤️</div>
-                <div class="weather-forecast-temperatures">
-                  <div class="temperature"><strong>15°</strong></div>
-                  <div class="temperature">9°</div>
-                </div>  
-          </div>
-                <div class="weather-forecast-day">
-            <div class="weather-forecast-date">Tue</div>
-              <div class="weather-forecast-icon">🌤️</div>
-                <div class="weather-forecast-temperatures">
-                  <div class="temperature"><strong>15°</strong></div>
-                  <div class="temperature">9°</div>
-                </div>
-          </div>
-                <div class="weather-forecast-day">
-            <div class="weather-forecast-date">Tue</div>
-              <div class="weather-forecast-icon">🌤️</div>
-                <div class="weather-forecast-temperatures">
-                  <div class="temperature"><strong>15°</strong></div>
-                  <div class="temperature">9°</div>
-                </div>
-          </div>
+        <div class="weather-forecast" id="forecast"></div>
       </main>
       <footer>
         <p>
